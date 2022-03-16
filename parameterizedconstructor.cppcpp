@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+class integer
+{
+    int m,n;
+    public :
+    integer(int x,int y);
+    void display(void)
+    {
+        cout << m << endl;
+        cout << n << endl;
+    }
+};
+
+integer :: integer(int x,int y)
+{
+    m=x;
+    n=y;
+}
+int main()
+{
+    integer int1 = integer(6,7);
+    int1.display();
+    integer int2(8,9);
+    int2.display();
+}
